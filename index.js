@@ -14,7 +14,7 @@ function johnLennonFacts(facts) {
   var johnLennon = []
       let n = 0
   while (n < facts.length) {
-    johnLennon.push(`${facts[i]}!!!`)
+    johnLennon.push(`${facts[n]}!!!`)
     n += 1
   }
   return johnLennon
