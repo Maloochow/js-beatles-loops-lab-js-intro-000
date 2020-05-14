@@ -8,12 +8,13 @@ function theBeatlesPlay (musician, instrument) {
   return Beatles;
 }
 
-var johnLennon = []
-let n = 0
+
 
 function johnLennonFacts(facts) {
+  var johnLennon = []
+      let n = 0
   while (n < facts.length) {
-    johnLennon.push(`${facts(i)}!!!`)
+    johnLennon.push(`${facts[i]}!!!`)
     n += 1
   }
   return johnLennon
